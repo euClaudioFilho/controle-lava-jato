@@ -17,22 +17,27 @@ namespace EstacionamentoApi.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Post([FromBody] Movimentacao movimentacao)
+        public async Task<ActionResult<Movimentacao>> PostAsync(Movimentacao movimentacao)
         {
             await _movimentacaoDAO.AddAsync(movimentacao);
-            return Ok();
+            return CreatedAtAction(
+                nameof(PostAsync),
+                new { id = movimentacao.Id },
+                movimentacao);
         }
 
         [HttpGet("count")]
-        public async Task<int> GetCount()
+        public async Task<ActionResult<int>> GetCount()
         {
-            return await _movimentacaoDAO.GetCountAsync();
+            var count = await _movimentacaoDAO.GetCountAsync();
+            return Ok(count);
         }
 
         [HttpGet("totalvalue")]
-        public async Task<decimal> GetTotalValue()
+        public async Task<ActionResult<decimal>> GetTotalValue()
         {
-            return await _movimentacaoDAO.GetTotalValueAsync();
+            var totalValue = await _movimentacaoDAO.GetTotalValueAsync();
+            return Ok(totalValue);
         }
     }
 }
