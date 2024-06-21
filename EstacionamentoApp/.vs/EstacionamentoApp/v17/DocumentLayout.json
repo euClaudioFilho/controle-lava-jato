@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{6665D46E-52CA-443D-9B6D-C963263E4CED}|EstacionamentoApi\\EstacionamentoApi.csproj|c:\\users\\andreia de mattos\\source\\repos\\estacionamentoapp\\estacionamentoapi\\controllers\\movimentacoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6665D46E-52CA-443D-9B6D-C963263E4CED}|EstacionamentoApi\\EstacionamentoApi.csproj|solutionrelative:estacionamentoapi\\controllers\\movimentacoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF50C87F-163D-47FF-8422-C7B0DDFB2C07}|EstacionamentoFront\\EstacionamentoFront.csproj|c:\\users\\andreia de mattos\\source\\repos\\estacionamentoapp\\estacionamentofront\\pages\\registrarmovimentacao.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF50C87F-163D-47FF-8422-C7B0DDFB2C07}|EstacionamentoFront\\EstacionamentoFront.csproj|solutionrelative:estacionamentofront\\pages\\registrarmovimentacao.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegistrarMovimentacao.razor",
+              "DocumentMoniker": "C:\\Users\\Andreia de Mattos\\source\\repos\\EstacionamentoApp\\EstacionamentoFront\\Pages\\RegistrarMovimentacao.razor",
+              "RelativeDocumentMoniker": "EstacionamentoFront\\Pages\\RegistrarMovimentacao.razor",
+              "ToolTip": "C:\\Users\\Andreia de Mattos\\source\\repos\\EstacionamentoApp\\EstacionamentoFront\\Pages\\RegistrarMovimentacao.razor",
+              "RelativeToolTip": "EstacionamentoFront\\Pages\\RegistrarMovimentacao.razor",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAB0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-21T20:15:21.468Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +41,7 @@
               "RelativeDocumentMoniker": "EstacionamentoApi\\Controllers\\MovimentacoesController.cs",
               "ToolTip": "C:\\Users\\Andreia de Mattos\\source\\repos\\EstacionamentoApp\\EstacionamentoApi\\Controllers\\MovimentacoesController.cs",
               "RelativeToolTip": "EstacionamentoApi\\Controllers\\MovimentacoesController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABIAAAA",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAswBQAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-21T20:03:30.707Z",
               "EditorCaption": ""
