@@ -1,0 +1,43 @@
+﻿@page "/buscar-carro"
+
+@using EstacionamentoFront.Models
+@inject HttpClient Http
+
+<h3>Buscar Carro pela Placa</h3>
+
+<input type="text" @bind="placa" placeholder="Digite a placa" class="form-control mb-2" />
+<button @onclick="PesquisarCarro" class="btn btn-primary mb-3">Buscar</button>
+
+@if (carro != null)
+{
+    <div>
+        <p><strong>Id:</strong> @carro.Id</p>
+        <p><strong>Modelo:</strong> @carro.Modelo</p>
+        <p><strong>Placa:</strong> @carro.Placa</p>
+    </div>
+}
+else if (!string.IsNullOrEmpty(placa) && !carroEncontrado)
+{
+    <p>Nenhum carro encontrado com essa placa.</p>
+}
+
+@code {
+    private string placa;
+    private Carro? carro;
+    private bool carroEncontrado = true;
+
+    private async Task PesquisarCarro()
+    {
+        try
+        {
+            carro = await Http.GetFromJsonAsync<Carro>($"api/carros/placa/{placa}");
+            carroEncontrado = carro != null;
+        }
+        catch (Exception ex)
+        {
+            carro = null;
+            carroEncontrado = false;
+            Console.WriteLine($"Erro ao buscar carro: {ex.Message}");
+        }
+    }
+}

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ssy3v8Sg5Wc=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Andreia de Mattos\\source\\repos\\EstacionamentoApp\\EstacionamentoInfra\\EstacionamentoInfra.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Andreia de Mattos\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512"
+  ],
+  "logs": []
+}

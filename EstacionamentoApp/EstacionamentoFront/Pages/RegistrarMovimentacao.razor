@@ -1,0 +1,46 @@
+﻿@page "/registrar-movimentacao"
+
+@using EstacionamentoFront.Models
+@using System.Net.Http.Json
+@inject HttpClient Http
+
+<h3>Registrar Lavagem de Carro</h3>
+
+<EditForm Model="@movimentacao" OnValidSubmit="HandleValidSubmit">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="mb-3">
+        <label for="placa" class="form-label">Placa</label>
+        <InputText id="placa" class="form-control" @bind-Value="movimentacao.Placa" />
+    </div>
+    <button type="submit" class="btn btn-primary">Registrar</button>
+</EditForm>
+
+@if (sucesso)
+{
+    <p>Carro registrado para lavagem com sucesso!</p>
+}
+
+@code {
+    private Movimentacao movimentacao = new Movimentacao { Data = DateTime.Now, Valor = 50.00m }; // Exemplo de valor fixo
+    private bool sucesso = false;
+
+    private async Task HandleValidSubmit()
+    {
+        try
+        {
+            var response = await Http.PostAsJsonAsync("api/movimentacoes", movimentacao);
+            if (response.IsSuccessStatusCode)
+            {
+                sucesso = true;
+                movimentacao = new Movimentacao { Data = DateTime.Now, Valor = 50.00m };
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Erro ao registrar movimentação: {ex.Message}");
+            sucesso = false;
+        }
+    }
+}

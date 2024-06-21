@@ -1,0 +1,11 @@
+C:\Users\Andreia de Mattos\source\repos\EstacionamentoApp\EstacionamentoModel\bin\Debug\net8.0\EstacionamentoModel.deps.json
+C:\Users\Andreia de Mattos\source\repos\EstacionamentoApp\EstacionamentoModel\bin\Debug\net8.0\EstacionamentoModel.dll
+C:\Users\Andreia de Mattos\source\repos\EstacionamentoApp\EstacionamentoModel\bin\Debug\net8.0\EstacionamentoModel.pdb
+C:\Users\Andreia de Mattos\source\repos\EstacionamentoApp\EstacionamentoModel\obj\Debug\net8.0\EstacionamentoModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andreia de Mattos\source\repos\EstacionamentoApp\EstacionamentoModel\obj\Debug\net8.0\EstacionamentoModel.AssemblyInfoInputs.cache
+C:\Users\Andreia de Mattos\source\repos\EstacionamentoApp\EstacionamentoModel\obj\Debug\net8.0\EstacionamentoModel.AssemblyInfo.cs
+C:\Users\Andreia de Mattos\source\repos\EstacionamentoApp\EstacionamentoModel\obj\Debug\net8.0\EstacionamentoModel.csproj.CoreCompileInputs.cache
+C:\Users\Andreia de Mattos\source\repos\EstacionamentoApp\EstacionamentoModel\obj\Debug\net8.0\EstacionamentoModel.dll
+C:\Users\Andreia de Mattos\source\repos\EstacionamentoApp\EstacionamentoModel\obj\Debug\net8.0\refint\EstacionamentoModel.dll
+C:\Users\Andreia de Mattos\source\repos\EstacionamentoApp\EstacionamentoModel\obj\Debug\net8.0\EstacionamentoModel.pdb
+C:\Users\Andreia de Mattos\source\repos\EstacionamentoApp\EstacionamentoModel\obj\Debug\net8.0\ref\EstacionamentoModel.dll

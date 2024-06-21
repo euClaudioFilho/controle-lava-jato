@@ -1,0 +1,59 @@
+﻿@page "/carros"
+
+@using EstacionamentoFront.Models
+@inject HttpClient Http
+
+<h3>Carros Cadastrados</h3>
+
+<a href="carros/add" class="btn btn-primary mb-3">Adicionar Novo Carro</a>
+
+@if (carros == null)
+{
+    <p>Carregando...</p>
+}
+else if (!carros.Any())
+{
+    <p>Nenhum carro cadastrado.</p>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Modelo</th>
+                <th>Placa</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var carro in carros)
+            {
+                <tr>
+                    <td>@carro.Id</td>
+                    <td>@carro.Modelo</td>
+                    <td>@carro.Placa</td>
+                    <td>
+                        <a href="carros/edit/@carro.Id" class="btn btn-sm btn-warning">Editar</a>
+                        <button @onclick="() => DeleteCarro(carro.Id)" class="btn btn-sm btn-danger">Deletar</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<Carro>? carros;
+
+    protected override async Task OnInitializedAsync()
+    {
+        carros = await Http.GetFromJsonAsync<List<Carro>>("api/carros");
+    }
+
+    private async Task DeleteCarro(int id)
+    {
+        await Http.DeleteAsync($"api/carros/{id}");
+        carros = await Http.GetFromJsonAsync<List<Carro>>("api/carros");
+    }
+}

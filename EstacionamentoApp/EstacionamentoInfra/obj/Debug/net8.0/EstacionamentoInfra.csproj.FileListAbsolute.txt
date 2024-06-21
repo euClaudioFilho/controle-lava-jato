@@ -1,0 +1,15 @@
+C:\Users\Andreia de Mattos\source\repos\EstacionamentoApp\EstacionamentoInfra\bin\Debug\net8.0\EstacionamentoInfra.deps.json
+C:\Users\Andreia de Mattos\source\repos\EstacionamentoApp\EstacionamentoInfra\bin\Debug\net8.0\EstacionamentoInfra.dll
+C:\Users\Andreia de Mattos\source\repos\EstacionamentoApp\EstacionamentoInfra\bin\Debug\net8.0\EstacionamentoInfra.pdb
+C:\Users\Andreia de Mattos\source\repos\EstacionamentoApp\EstacionamentoInfra\bin\Debug\net8.0\EstacionamentoModel.dll
+C:\Users\Andreia de Mattos\source\repos\EstacionamentoApp\EstacionamentoInfra\bin\Debug\net8.0\EstacionamentoModel.pdb
+C:\Users\Andreia de Mattos\source\repos\EstacionamentoApp\EstacionamentoInfra\obj\Debug\net8.0\EstacionamentoInfra.csproj.AssemblyReference.cache
+C:\Users\Andreia de Mattos\source\repos\EstacionamentoApp\EstacionamentoInfra\obj\Debug\net8.0\EstacionamentoInfra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andreia de Mattos\source\repos\EstacionamentoApp\EstacionamentoInfra\obj\Debug\net8.0\EstacionamentoInfra.AssemblyInfoInputs.cache
+C:\Users\Andreia de Mattos\source\repos\EstacionamentoApp\EstacionamentoInfra\obj\Debug\net8.0\EstacionamentoInfra.AssemblyInfo.cs
+C:\Users\Andreia de Mattos\source\repos\EstacionamentoApp\EstacionamentoInfra\obj\Debug\net8.0\EstacionamentoInfra.csproj.CoreCompileInputs.cache
+C:\Users\Andreia de Mattos\source\repos\EstacionamentoApp\EstacionamentoInfra\obj\Debug\net8.0\Estacion.DA7A27FA.Up2Date
+C:\Users\Andreia de Mattos\source\repos\EstacionamentoApp\EstacionamentoInfra\obj\Debug\net8.0\EstacionamentoInfra.dll
+C:\Users\Andreia de Mattos\source\repos\EstacionamentoApp\EstacionamentoInfra\obj\Debug\net8.0\refint\EstacionamentoInfra.dll
+C:\Users\Andreia de Mattos\source\repos\EstacionamentoApp\EstacionamentoInfra\obj\Debug\net8.0\EstacionamentoInfra.pdb
+C:\Users\Andreia de Mattos\source\repos\EstacionamentoApp\EstacionamentoInfra\obj\Debug\net8.0\ref\EstacionamentoInfra.dll

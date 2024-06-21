@@ -1,0 +1,36 @@
+﻿@page "/dashboard"
+
+@inject HttpClient Http
+
+<h3 class="dashboard-header">Dashboard</h3>
+
+<div class="row">
+    <div class="col-md-4">
+        <div class="dashboard-card bg-light">
+            <p class="dashboard-info"><strong>Total de carros lavados:</strong> @totalCarrosLavados</p>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="dashboard-card bg-light">
+            <p class="dashboard-info"><strong>Valor total obtido:</strong> @valorTotalObtido.ToString("C")</p>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="dashboard-card bg-light">
+            <p class="dashboard-info"><strong>Carros sem lavagem registrada:</strong> @carrosSemMovimentacoes</p>
+        </div>
+    </div>
+</div>
+
+@code {
+    private int totalCarrosLavados;
+    private decimal valorTotalObtido;
+    private int carrosSemMovimentacoes;
+
+    protected override async Task OnInitializedAsync()
+    {
+        totalCarrosLavados = await Http.GetFromJsonAsync<int>("api/movimentacoes/count");
+        valorTotalObtido = await Http.GetFromJsonAsync<decimal>("api/movimentacoes/totalvalue");
+        carrosSemMovimentacoes = await Http.GetFromJsonAsync<int>("api/carros/sem-movimentacoes");
+    }
+}
