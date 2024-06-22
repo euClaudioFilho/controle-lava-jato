@@ -3,12 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\Andreia de Mattos\\source\\repos\\EstacionamentoApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6665D46E-52CA-443D-9B6D-C963263E4CED}|EstacionamentoApi\\EstacionamentoApi.csproj|c:\\users\\andreia de mattos\\source\\repos\\estacionamentoapp\\estacionamentoapi\\controllers\\movimentacoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6665D46E-52CA-443D-9B6D-C963263E4CED}|EstacionamentoApi\\EstacionamentoApi.csproj|solutionrelative:estacionamentoapi\\controllers\\movimentacoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EF50C87F-163D-47FF-8422-C7B0DDFB2C07}|EstacionamentoFront\\EstacionamentoFront.csproj|c:\\users\\andreia de mattos\\source\\repos\\estacionamentoapp\\estacionamentofront\\pages\\carroform.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF50C87F-163D-47FF-8422-C7B0DDFB2C07}|EstacionamentoFront\\EstacionamentoFront.csproj|solutionrelative:estacionamentofront\\pages\\carroform.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF9F0F3F-F0C2-4383-BE63-6B1F7465FB28}|EstacionamentoInfra\\EstacionamentoInfra.csproj|c:\\users\\andreia de mattos\\source\\repos\\estacionamentoapp\\estacionamentoinfra\\carrodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF9F0F3F-F0C2-4383-BE63-6B1F7465FB28}|EstacionamentoInfra\\EstacionamentoInfra.csproj|solutionrelative:estacionamentoinfra\\carrodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6665D46E-52CA-443D-9B6D-C963263E4CED}|EstacionamentoApi\\EstacionamentoApi.csproj|c:\\users\\andreia de mattos\\source\\repos\\estacionamentoapp\\estacionamentoapi\\controllers\\carroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6665D46E-52CA-443D-9B6D-C963263E4CED}|EstacionamentoApi\\EstacionamentoApi.csproj|solutionrelative:estacionamentoapi\\controllers\\carroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF50C87F-163D-47FF-8422-C7B0DDFB2C07}|EstacionamentoFront\\EstacionamentoFront.csproj|c:\\users\\andreia de mattos\\source\\repos\\estacionamentoapp\\estacionamentofront\\pages\\carros.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF50C87F-163D-47FF-8422-C7B0DDFB2C07}|EstacionamentoFront\\EstacionamentoFront.csproj|solutionrelative:estacionamentofront\\pages\\carros.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF50C87F-163D-47FF-8422-C7B0DDFB2C07}|EstacionamentoFront\\EstacionamentoFront.csproj|c:\\users\\andreia de mattos\\source\\repos\\estacionamentoapp\\estacionamentofront\\models\\carro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF50C87F-163D-47FF-8422-C7B0DDFB2C07}|EstacionamentoFront\\EstacionamentoFront.csproj|solutionrelative:estacionamentofront\\models\\carro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EF50C87F-163D-47FF-8422-C7B0DDFB2C07}|EstacionamentoFront\\EstacionamentoFront.csproj|c:\\users\\andreia de mattos\\source\\repos\\estacionamentoapp\\estacionamentofront\\pages\\registrarmovimentacao.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{EF50C87F-163D-47FF-8422-C7B0DDFB2C07}|EstacionamentoFront\\EstacionamentoFront.csproj|solutionrelative:estacionamentofront\\pages\\registrarmovimentacao.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF9F0F3F-F0C2-4383-BE63-6B1F7465FB28}|EstacionamentoInfra\\EstacionamentoInfra.csproj|c:\\users\\andreia de mattos\\source\\repos\\estacionamentoapp\\estacionamentoinfra\\movimentacaodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF9F0F3F-F0C2-4383-BE63-6B1F7465FB28}|EstacionamentoInfra\\EstacionamentoInfra.csproj|solutionrelative:estacionamentoinfra\\movimentacaodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6665D46E-52CA-443D-9B6D-C963263E4CED}|EstacionamentoApi\\EstacionamentoApi.csproj|c:\\users\\andreia de mattos\\source\\repos\\estacionamentoapp\\estacionamentoapi\\controllers\\movimentacoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6665D46E-52CA-443D-9B6D-C963263E4CED}|EstacionamentoApi\\EstacionamentoApi.csproj|solutionrelative:estacionamentoapi\\controllers\\movimentacoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,33 +42,108 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Carro.cs",
+              "DocumentMoniker": "C:\\Users\\Andreia de Mattos\\source\\repos\\EstacionamentoApp\\EstacionamentoFront\\Models\\Carro.cs",
+              "RelativeDocumentMoniker": "EstacionamentoFront\\Models\\Carro.cs",
+              "ToolTip": "C:\\Users\\Andreia de Mattos\\source\\repos\\EstacionamentoApp\\EstacionamentoFront\\Models\\Carro.cs",
+              "RelativeToolTip": "EstacionamentoFront\\Models\\Carro.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T00:47:54.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CarrosController.cs",
+              "DocumentMoniker": "C:\\Users\\Andreia de Mattos\\source\\repos\\EstacionamentoApp\\EstacionamentoApi\\Controllers\\CarrosController.cs",
+              "RelativeDocumentMoniker": "EstacionamentoApi\\Controllers\\CarrosController.cs",
+              "ToolTip": "C:\\Users\\Andreia de Mattos\\source\\repos\\EstacionamentoApp\\EstacionamentoApi\\Controllers\\CarrosController.cs",
+              "RelativeToolTip": "EstacionamentoApi\\Controllers\\CarrosController.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAIwEcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T00:45:34.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "RegistrarMovimentacao.razor",
-              "DocumentMoniker": "C:\\Users\\Andreia de Mattos\\source\\repos\\EstacionamentoApp\\EstacionamentoFront\\Pages\\RegistrarMovimentacao.razor",
-              "RelativeDocumentMoniker": "EstacionamentoFront\\Pages\\RegistrarMovimentacao.razor",
-              "ToolTip": "C:\\Users\\Andreia de Mattos\\source\\repos\\EstacionamentoApp\\EstacionamentoFront\\Pages\\RegistrarMovimentacao.razor",
-              "RelativeToolTip": "EstacionamentoFront\\Pages\\RegistrarMovimentacao.razor",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAAB0AAAAFAAAA",
+              "Title": "CarroDAO.cs",
+              "DocumentMoniker": "C:\\Users\\Andreia de Mattos\\source\\repos\\EstacionamentoApp\\EstacionamentoInfra\\CarroDAO.cs",
+              "RelativeDocumentMoniker": "EstacionamentoInfra\\CarroDAO.cs",
+              "ToolTip": "C:\\Users\\Andreia de Mattos\\source\\repos\\EstacionamentoApp\\EstacionamentoInfra\\CarroDAO.cs",
+              "RelativeToolTip": "EstacionamentoInfra\\CarroDAO.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwCcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T00:45:17.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MovimentacaoDAO.cs",
+              "DocumentMoniker": "C:\\Users\\Andreia de Mattos\\source\\repos\\EstacionamentoApp\\EstacionamentoInfra\\MovimentacaoDAO.cs",
+              "RelativeDocumentMoniker": "EstacionamentoInfra\\MovimentacaoDAO.cs",
+              "ToolTip": "C:\\Users\\Andreia de Mattos\\source\\repos\\EstacionamentoApp\\EstacionamentoInfra\\MovimentacaoDAO.cs",
+              "RelativeToolTip": "EstacionamentoInfra\\MovimentacaoDAO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T23:27:57.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Carros.razor",
+              "DocumentMoniker": "C:\\Users\\Andreia de Mattos\\source\\repos\\EstacionamentoApp\\EstacionamentoFront\\Pages\\Carros.razor",
+              "RelativeDocumentMoniker": "EstacionamentoFront\\Pages\\Carros.razor",
+              "ToolTip": "C:\\Users\\Andreia de Mattos\\source\\repos\\EstacionamentoApp\\EstacionamentoFront\\Pages\\Carros.razor",
+              "RelativeToolTip": "EstacionamentoFront\\Pages\\Carros.razor",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-21T20:15:21.468Z",
+              "WhenOpened": "2024-06-21T23:25:55.548Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CarroForm.razor",
+              "DocumentMoniker": "C:\\Users\\Andreia de Mattos\\source\\repos\\EstacionamentoApp\\EstacionamentoFront\\Pages\\CarroForm.razor",
+              "RelativeDocumentMoniker": "EstacionamentoFront\\Pages\\CarroForm.razor",
+              "ToolTip": "C:\\Users\\Andreia de Mattos\\source\\repos\\EstacionamentoApp\\EstacionamentoFront\\Pages\\CarroForm.razor",
+              "RelativeToolTip": "EstacionamentoFront\\Pages\\CarroForm.razor",
+              "ViewState": "AQIAACIAAAAAAAAAAAAswC8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-21T23:24:56.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RegistrarMovimentacao.razor",
+              "DocumentMoniker": "C:\\Users\\Andreia de Mattos\\source\\repos\\EstacionamentoApp\\EstacionamentoFront\\Pages\\RegistrarMovimentacao.razor",
+              "RelativeDocumentMoniker": "EstacionamentoFront\\Pages\\RegistrarMovimentacao.razor",
+              "ToolTip": "C:\\Users\\Andreia de Mattos\\source\\repos\\EstacionamentoApp\\EstacionamentoFront\\Pages\\RegistrarMovimentacao.razor",
+              "RelativeToolTip": "EstacionamentoFront\\Pages\\RegistrarMovimentacao.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-21T20:15:21.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "MovimentacoesController.cs",
               "DocumentMoniker": "C:\\Users\\Andreia de Mattos\\source\\repos\\EstacionamentoApp\\EstacionamentoApi\\Controllers\\MovimentacoesController.cs",
               "RelativeDocumentMoniker": "EstacionamentoApi\\Controllers\\MovimentacoesController.cs",
               "ToolTip": "C:\\Users\\Andreia de Mattos\\source\\repos\\EstacionamentoApp\\EstacionamentoApi\\Controllers\\MovimentacoesController.cs",
               "RelativeToolTip": "EstacionamentoApi\\Controllers\\MovimentacoesController.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAswBQAAAAJAAAA",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAswBQAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T20:03:30.707Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-21T20:03:30.707Z"
             }
           ]
         }

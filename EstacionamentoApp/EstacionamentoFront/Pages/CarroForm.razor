@@ -23,9 +23,16 @@
     <button type="submit" class="btn btn-primary">Salvar</button>
 </EditForm>
 
+@if (!string.IsNullOrEmpty(mensagem))
+{
+    <div class="alert @alertClass mt-3">@mensagem</div>
+}
+
 @code {
     [Parameter] public int Id { get; set; }
     private Carro carro = new Carro();
+    private string mensagem;
+    private string alertClass;
 
     protected override async Task OnInitializedAsync()
     {
@@ -37,14 +44,47 @@
 
     private async Task HandleValidSubmit()
     {
-        if (carro.Id == 0)
+        try
         {
-            await Http.PostAsJsonAsync("api/carros", carro);
+            HttpResponseMessage response;
+            if (carro.Id == 0)
+            {
+                response = await Http.PostAsJsonAsync("api/carros", carro);
+                if (response.IsSuccessStatusCode)
+                {
+                    mensagem = "Carro adicionado com sucesso!";
+                    alertClass = "alert-success";
+                }
+                else
+                {
+                    mensagem = "Erro ao adicionar carro.";
+                    alertClass = "alert-danger";
+                }
+            }
+            else
+            {
+                response = await Http.PutAsJsonAsync($"api/carros/{carro.Id}", carro);
+                if (response.IsSuccessStatusCode)
+                {
+                    mensagem = "Carro atualizado com sucesso!";
+                    alertClass = "alert-success";
+                }
+                else
+                {
+                    mensagem = "Erro ao atualizar carro.";
+                    alertClass = "alert-danger";
+                }
+            }
+
+            if (response.IsSuccessStatusCode)
+            {
+                Navigation.NavigateTo("/carros");
+            }
         }
-        else
+        catch (Exception ex)
         {
-            await Http.PutAsJsonAsync("api/carros", carro);
+            mensagem = $"Erro: {ex.Message}";
+            alertClass = "alert-danger";
         }
-        Navigation.NavigateTo("/carros");
     }
 }

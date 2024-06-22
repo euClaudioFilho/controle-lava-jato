@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "EstacionamentoFront",
   "resources": {
-    "hash": "sha256-1Wtr88u8/o+bq460aGlngCiyOVCE0sKcjrR9QqWnidk=",
+    "hash": "sha256-Io/azo1d59ZCs5WiJscmu1FqMlxBxh1GkTwgZIhm4H0=",
     "jsModuleNative": {
       "dotnet.native.8.0.5.hdd12cjaf2.js": "sha256-boyHe+0RMZDkzBKGhsrnXPhPg3oZ6UqJnTUzngJPjNY="
     },
@@ -208,10 +208,10 @@
       "mscorlib.wasm": "sha256-XvLAB5IyfVSmj5aaGnPwgVFaaZz8jXmbN8WmeopiPBM=",
       "netstandard.wasm": "sha256-TbMssdnuTiKq1gjTPkpgROAuWN0uhvPnagvWR+wAgNs=",
       "System.Private.CoreLib.wasm": "sha256-sscg+Efk8ROPq+q4IVmhShzITuoOYvB8Bsc+Mp9vcSM=",
-      "EstacionamentoFront.wasm": "sha256-PCvntzN+FGV/YAchtCM3Ue8FxBWK1McpvSQgb9Qj+F0="
+      "EstacionamentoFront.wasm": "sha256-m+Ni5JBm4xH4Zww6yzXlci0vpT9HvEC7NA2rDoehGyY="
     },
     "pdb": {
-      "EstacionamentoFront.pdb": "sha256-WzyFDH7ZKUWIrE1veSwyp4D71MgflJwUnC/lEn40aEY="
+      "EstacionamentoFront.pdb": "sha256-At542VxDz+qJH7dFc1IsyYYEujXRU2MRY++oYxoDxrs="
     }
   },
   "cacheBootResources": true,
